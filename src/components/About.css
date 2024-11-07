@@ -1,0 +1,92 @@
+.container {
+  max-width: 1200px; /* Set a max width for better content alignment */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+}
+
+.row {
+  display: flex; /* Enable flexbox for the row */
+  align-items: stretch; /* Ensure all items stretch to the same height */
+}
+
+.text-container {
+  display: flex; /* Make text container a flexbox */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center content vertically */
+}
+
+.heading {
+  font-size: 2rem; /* Increase heading font size */
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center; /* Center align the heading */
+  color: #333;
+  font-weight: bold; /* Dark color for better readability */
+}
+
+.definition {
+  font-size: 1.1rem; /* Adjust font size for readability */
+  line-height: 1.6; /* Increase line height */
+  color: #34495e; /* Lighter gray for paragraph text */
+  padding: 0 20px; /* Horizontal padding */
+  text-align: justify; /* Justify the text */
+  font-weight: bold;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid {
+  width: 400px;  /* Set the width */
+  height: 400px; /* Set the height */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.heading2 {
+  margin-top: 40px; /* Add space above */
+  font-size: 2rem; /* Heading size */
+  color: #333; /* Dark color for better readability */
+}
+
+.feature-card {
+  background-color: #f8f9fa; /* Light background for cards */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px); /* Lift card on hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.card-title {
+  font-weight: bold; /* Bold title */
+  color: #333; /* Dark color */
+}
+
+.card-text {
+  color: #666; /* Medium gray for text */
+}
+
+.card-icon {
+  margin-bottom: 10px; /* Space below icons */
+  font-size: 2.5rem; /* Increase icon size */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem; /* Smaller heading size on mobile */
+  }
+
+  .definition {
+    font-size: 1rem; /* Smaller text size on mobile */
+  }
+}
+
+

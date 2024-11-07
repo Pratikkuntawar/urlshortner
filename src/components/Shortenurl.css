@@ -1,0 +1,139 @@
+/* Parent div for centering */
+
+.shorten-url-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: rgb(127, 238, 237);
+    background-color: rgb(153, 204, 255);
+    background-color:  rgb(173, 255, 239);
+  }
+  
+  /* Styling the shorten URL container */
+  .shorten-url-container {
+    width: 800px; /* Increased width of the container */
+    padding: 40px; /* Add padding for spacing */
+    background: rgb(64, 224, 208); /* White background */
+    background: rgb(213, 255, 251);
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Title styling */
+  .shorten-url-title {
+    font-size: 2rem; /* Increase title size */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  /* Description styling */
+  .shorten-url-description {
+    font-size: 1.1rem; /* Font size for description */
+    color: #666; /* Gray color for text */
+    margin-bottom: 30px; /* Space below the description */
+  }
+  
+  /* Form styling */
+  .shorten-url-form {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  /* Input group styling */
+  .input-group {
+    position: relative; /* For positioning the icon */
+    margin-bottom: 20px; /* Space between input and button */
+  }
+  
+  /* Input field styling */
+  .shorten-url-input {
+    width: 100%; /* Full width */
+    padding: 10px 40px; /* Padding for text and space for icon */
+    font-size: 1rem; /* Font size for input */
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    transition: border-color 0.3s; /* Transition for border color */
+  }
+  
+  /* Input focus effect */
+  .shorten-url-input:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+  }
+  
+  /* Input icon styling */
+  .input-icon {
+    position: absolute; /* Positioning the icon */
+    left: 10px; /* Distance from the left */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust to center */
+    color: #007bff; /* Icon color */
+  }
+  
+  /* Button styling */
+  .shorten-url-button {
+    padding: 10px; /* Padding for button */
+    background-color: #e8f5e9; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 1.1rem; /* Increase font size */
+    transition: background-color 0.3s; /* Transition for background color */
+    background-color: #ff6b6b; /* Coral */
+    color: #ffffff;
+  }
+  
+  /* Button hover effect */
+  .shorten-url-button:hover {
+    background-color: #e63946; /* Darker blue on hover */
+  }
+  
+  /* Error message styling */
+  .shorten-url-error {
+    color: red; /* Red for errors */
+    margin-top: 15px; /* Space above the error message */
+  }
+  
+  /* Result section styling */
+  .shorten-url-result {
+    margin-top: 20px; /* Space above the result */
+  }
+  
+  /* Link styling for shortened URL */
+  .shorten-url-result a {
+    color: #007bff; /* Blue color */
+    text-decoration: none; /* No underline */
+  }
+  
+  /* Copy button styling */
+  .shorten-url-copy-button {
+    display: flex; /* Flexbox for button alignment */
+    align-items: center; /* Center icon and text */
+    background: #28a745; /* Green background */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    margin-top: 10px; /* Space above the button */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition for background color */
+  }
+  
+  /* Copy button hover effect */
+  .shorten-url-copy-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Copy icon styling */
+  .copy-icon {
+    margin-right: 5px; /* Space between icon and text */
+  }
+  
+  
+  
+  
+  
+  

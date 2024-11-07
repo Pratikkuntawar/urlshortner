@@ -1,0 +1,61 @@
+/* Container Styling */
+.register-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 40%, #007bff 100%);
+  padding: 2rem;
+}
+
+/* Form Section Styling */
+.form-section {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styled Input Fields */
+.styled-input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  outline: none;
+  background: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.styled-input:focus {
+  border-bottom-color: #007bff;
+  box-shadow: 0px 8px 16px rgba(0, 123, 255, 0.2);
+}
+
+/* Labels Above Inputs */
+.form-label {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  font-size: 0.9rem;
+  background-color: #ffffff;
+  padding: 0 4px;
+  color: #777;
+  transition: all 0.2s;
+}
+
+.styled-input:focus + .form-label {
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Submit Button */
+.submit-btn {
+  padding: 0.75rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+  

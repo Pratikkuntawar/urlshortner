@@ -1,0 +1,59 @@
+/* Navbar.css */
+
+/* Logo hover effect */
+.logo-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-hover:hover {
+  transform: scale(1.1); /* Slight zoom-in effect */
+}
+
+/* Brand name styling */
+.brand-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Navbar item hover effect */
+.nav-hover {
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-hover:hover {
+  color: #ffcc00; /* Change color on hover */
+}
+
+.nav-hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffcc00;
+  transition: width 0.4s ease-in-out;
+}
+
+.nav-hover:hover::after {
+  width: 100%; /* Underline effect expands on hover */
+}
+
+/* Adjust active class styling */
+.nav-link.active {
+  font-weight: bold;
+  color: #ffcc00 !important; /* Active link color */
+  border-bottom: 2px solid #ffcc00; /* Add underline */
+}
+
+/* Mobile navbar shadow */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  /* .navbar {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  } */
