@@ -91,6 +91,9 @@
     .analytics-table {
         width: 100%;
     }
+     .analytics-title{
+        font-size: 1.4rem;
+    }
 }
 
 
