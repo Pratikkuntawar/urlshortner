@@ -89,7 +89,7 @@
 }
 @media (max-width: 768px) {
     .analytics-table {
-        width: 100%;
+        width: 95%;
     }
      .analytics-title{
         font-size: 1.4rem;
