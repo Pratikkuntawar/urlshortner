@@ -58,4 +58,24 @@
   background-color: #0056b3;
 }
 
+/* Default: Full-width on small screens */
+.form-section {
+  width: 100%;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Adjust width for larger screens */
+@media (min-width: 768px) {
+  .form-section {
+    max-width: 450px; /* Restrict width on medium and larger screens */
+    padding: 2rem; /* Maintain padding */
+  }
+  .row{
+    width: 100%;
+    margin: auto;
+    padding: 2rem; 
+  }
+}
+  
   
